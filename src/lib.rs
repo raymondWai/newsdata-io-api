@@ -3,7 +3,6 @@ use ureq::serde_json;
 
 pub mod apis;
 pub mod newsdata_io;
-pub use apis::GetLatestNewsParams;
 pub use newsdata_io::NewsdataIO;
 
 pub type Json = serde_json::Value;
