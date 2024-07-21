@@ -1,0 +1,10 @@
+[package]
+name = "newsdata-io-api"
+version = "0.9"
+edition = "2024"
+
+[dependencies]
+log = "0.4.22"
+reqwest = "0.12.5"
+serde = { version = "1.0.204", features = ["derive"] }
+ureq = { version = "2.10.0", features = ["json"] }
