@@ -1,9 +1,10 @@
 [package]
 name = "newsdata-io-api"
-version = "0.9.0"
+version = "0.9.1"
 edition = "2021"
 description = "Rust binding for the api of Newsdata.io"
 license = "MIT"
+repository = "https://github.com/raymondWai/newsdata-io-api"
 
 [dependencies]
 log = "0.4.22"
